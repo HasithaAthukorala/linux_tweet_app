@@ -8,7 +8,7 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY index.html /usr/share/nginx/html
 COPY linux.png /usr/share/nginx/html
 
-USER nginx
+USER 10014
 
 EXPOSE 80 443 	
 
